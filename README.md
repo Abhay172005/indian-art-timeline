@@ -1,43 +1,43 @@
-# INDIAN ART — A Journey Through Time
+# Indian Art — A Journey Through Time
 
-An interactive digital timeline exploring 5,000+ years of Indian artistic heritage. This project is built to fulfill the CO1 assignment requirements (10 Marks) for the Interactive Indian Art Timeline.
+An interactive, digital museum experience exploring 5,000 years of Indian artistic heritage. From the ancient seals of the Indus Valley to the living traditions of Madhubani and Warli, this project curates significant artifacts into an elegant chronological timeline.
 
-## Assignment Requirements Addressed
-* **Interactive Timeline:** Horizontal scrolling on desktop, vertical on mobile.
-* **Clickable Artifacts:** 12 total artifacts (2 for each tradition).
-* **Historical Context & Significance:** Prominently displayed in the artifact modal.
-* **6 Traditions Covered:** Indus Valley, Ajanta, Chola, Mughal, Madhubani, and Warli. Madhubani and Warli are correctly classified as "Continuous Traditions / Living Art Forms".
+## Live Demo
+> **[View the Timeline on GitHub Pages](https://abhay172005.github.io/indian-art-timeline/)** 
+*(Note: Ensure GitHub Pages is enabled in your repository settings if this link returns a 404)*
+
+## Features
+* **Premium Digital Museum Aesthetic:** A dark-themed, gold-accented UI designed for deep immersion.
+* **Vertical Chronological Timeline:** A seamless, segmented timeline spine that visually connects eras.
+* **Interactive Artifact Modals:** Click on any artifact card to open a detailed modal containing:
+  * High-resolution imagery
+  * Historical Context & Significance
+  * Material & Technique
+  * Cultural Importance
+* **Dynamic Filtering:** Navigate directly to specific eras (Indus Valley, Ajanta, Chola, Mughal, Madhubani, Warli) using the sticky top navigation bar.
+* **Fully Responsive:** Adapts beautifully to desktop, tablet, and mobile screens.
+
+## Project Structure
+The project relies on a lightweight, vanilla tech stack with zero dependencies:
+* `index.html` - Semantic structure, navigation, and modal skeleton.
+* `style.css` - Custom design system, CSS variables, grid/flexbox layouts, and UI animations.
+* `data.js` - Centralized JSON-like data store containing all artifact metadata, historical information, and image curation.
+* `script.js` - Vanilla JavaScript handling dynamic DOM generation, IntersectionObserver scroll events, and modal state management.
+* `assets/` - Curated, historically accurate, high-resolution artifact images sourced from reputable institutions (e.g., National Museum, ASI, LACMA, Freer Gallery).
 
 ## How to Run Locally
+No build steps, frameworks, or complex servers are required.
 
-This project uses vanilla HTML, CSS, and JavaScript. No build steps or complex servers are required.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Abhay172005/indian-art-timeline.git
+   ```
+2. **Open the project:**
+   Simply open `index.html` directly in any modern web browser (Chrome, Firefox, Safari, Edge).
+   *(Optional: Use VS Code's "Live Server" extension for a better development experience).*
 
-1. **Download/Clone** this repository or folder.
-2. **Open `index.html`** directly in any modern web browser (Chrome, Firefox, Safari, Edge).
-   * *Optional: If you want to use a local server, you can use VS Code's "Live Server" extension or run `python -m http.server` in the terminal and navigate to `http://localhost:8000`.*
+## Data & Sourcing
+All historical information in this project is drawn from reputable academic institutions and government sources. The artifact images are verified public domain or Creative Commons (CC) licensed assets carefully sourced for educational purposes. 
 
-## Images and Assets
-
-**IMPORTANT:** Currently, placeholder images are used with a fallback text ("Authentic Image Pending") to satisfy the strict requirement against using AI-generated representations of real historical artifacts.
-
-Before final submission, you must download authentic images from reliable sources (e.g., National Museum, ASI, MET) and place them in the corresponding `assets/` folders:
-* `assets/indus/dancing-girl.jpg`
-* `assets/indus/pashupati-seal.jpg`
-* `assets/ajanta/padmapani.jpg`
-* `assets/ajanta/apsara.jpg`
-* `assets/chola/nataraja.jpg`
-* `assets/chola/somaskanda.jpg`
-* `assets/mughal/jahangir.jpg`
-* `assets/mughal/zebra.jpg`
-* `assets/madhubani/tree-of-life.jpg`
-* `assets/madhubani/kohbar.jpg`
-* `assets/warli/tarpa.jpg`
-* `assets/warli/wedding.jpg`
-
-## Team Section
-Open `index.html` and scroll to the bottom `<footer class="team-section">` to replace "Member 1", "Member 2", etc., with your actual team members' names.
-
-## Technology Stack
-* **HTML5:** Semantic structure.
-* **CSS3:** Custom styling, variables, flexbox/grid layouts, responsive media queries.
-* **Vanilla JavaScript:** Dynamic generation of the timeline from data, modal interactions, smooth scroll filtering. No external libraries were used.
+## License
+This project is open-source and available for educational use.
