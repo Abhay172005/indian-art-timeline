@@ -2,10 +2,6 @@
 
 An interactive, digital museum experience exploring 5,000 years of Indian artistic heritage. From the ancient seals of the Indus Valley to the living traditions of Madhubani and Warli, this project curates significant artifacts into an elegant chronological timeline.
 
-## Live Demo
-> **[View the Timeline on GitHub Pages](https://abhay172005.github.io/indian-art-timeline/)** 
-*(Note: Ensure GitHub Pages is enabled in your repository settings if this link returns a 404)*
-
 ## Features
 * **Premium Digital Museum Aesthetic:** A dark-themed, gold-accented UI designed for deep immersion.
 * **Vertical Chronological Timeline:** A seamless, segmented timeline spine that visually connects eras.
